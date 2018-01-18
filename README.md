@@ -13,3 +13,4 @@ Resources
 - [Citation Style](http://citationstyles.org/)
 - [Harward referencing](https://www.gcu.ac.uk/library/subjecthelp/referencing/harvardreferencing/)
 - [How to make a scientific looking PDF from markdown (with bibliography)](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8)
+- http://editor.citationstyles.org/about/
