@@ -3,7 +3,6 @@
 % 2018-01-18
 ---
 header-includes: \usepackage{unicode-math}
-bibliography: bibliography.bib
 ---
 
 ## Slide 1

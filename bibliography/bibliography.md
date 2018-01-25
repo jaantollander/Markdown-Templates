@@ -1,8 +1,5 @@
----
-bibliography: bibliography.bib
----
-
 # Referecing Examples
+<!-- TODO: biblatex examples -->
 
 @article
 
@@ -29,5 +26,7 @@ bibliography: bibliography.bib
 @techreport
 
 @unpublished
+
+@online
 
 # Bibliography

@@ -2,7 +2,6 @@
 title: "Essay Example"
 date: "2018-01-12"
 author: "Jaan Tollander de Balsch"
-bibliography: bibliography.bib
 header-includes: \usepackage{unicode-math}
 ---
 
