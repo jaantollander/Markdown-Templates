@@ -1,9 +1,9 @@
 ---
-title: "Essay Example"
-date: "2018-01-12"
+title: "Book Example"
+date: "2018-05-18"
 author: "Jaan Tollander de Balsch"
-header-includes: \usepackage{unicode-math}
 ---
+
 
 ## Image
 ![Description](http://via.placeholder.com/800x400)
