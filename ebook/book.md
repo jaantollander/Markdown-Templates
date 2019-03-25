@@ -3,8 +3,6 @@ title: "Book Example"
 date: "2018-05-18"
 author: "Jaan Tollander de Balsch"
 ---
-
-
 ## Image
 ![Description](http://via.placeholder.com/800x400)
 
@@ -30,4 +28,4 @@ def foo():
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
-# Bibliography
+## References

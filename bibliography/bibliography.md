@@ -1,4 +1,6 @@
-# Referecing Examples
+---
+title: Referecing Examples
+---
 <!-- TODO: biblatex examples -->
 
 @article
@@ -29,4 +31,4 @@
 
 @online
 
-# Bibliography
+## References
