@@ -1,5 +1,5 @@
 # Markdown Templates
-<!-- TODO: image: editor <-> document -->
+![](essay-template.png)
 
 This repository contains document templates for writing with Markdown. It's related to my article [*Scientific Writing with Markdown*](https://jaantollander.com/2018-01-25-writing-markdown.html) which discussed how to write documents, including scientific document, using Markdown. The article was inspired by the article [*How to make a scientific looking PDF from markdown (with bibliography)*](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8).
 
