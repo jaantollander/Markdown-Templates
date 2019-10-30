@@ -4,13 +4,13 @@ date: "2018-01-12"
 author: "Jaan Tollander de Balsch"
 header-includes: \usepackage{unicode-math}
 ---
-## Image
+# Image
 ![Description](http://via.placeholder.com/800x400)
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. [@online]
 
 
-## Equation
+# Equation
 Cauchy's integral formula [@dixon1971brief]
 
 \[ f(a)={\frac {1}{2\pi i}}\oint _{\gamma }{\frac {f(z)}{z-a}}\,dz. \]
@@ -18,7 +18,7 @@ Cauchy's integral formula [@dixon1971brief]
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
-## Source Code
+# Source Code
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ```python
@@ -29,4 +29,4 @@ def foo():
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
-## Rererences
+# Rererences
