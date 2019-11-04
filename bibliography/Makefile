@@ -8,10 +8,7 @@ pdf:
 	--to=latex \
 	--output=$(BUILDDIR)/$(FILENAME).pdf \
 	--pdf-engine=xelatex \
-	--variable urlcolor=cyan \
-	--filter pandoc-citeproc \
-	--bibliography=bibliography.bib \
-	--csl=https://raw.githubusercontent.com/citation-style-language/styles/master/harvard-anglia-ruskin-university.csl \
+	--filter pandoc-citeproc
 
 html:
 	mkdir $(BUILDDIR) -p
@@ -20,6 +17,4 @@ html:
 	--to=html5 \
 	--output=$(BUILDDIR)/$(FILENAME).html \
 	--filter pandoc-citeproc \
-	--bibliography=bibliography.bib \
-	--csl=https://raw.githubusercontent.com/citation-style-language/styles/master/harvard-anglia-ruskin-university.csl \
-	--self-contained \
+	--self-contained

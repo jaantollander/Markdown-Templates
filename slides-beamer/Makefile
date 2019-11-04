@@ -8,6 +8,4 @@ pdf:
 	--to=beamer \
 	--output=$(BUILDDIR)/$(FILENAME).pdf \
 	--pdf-engine=xelatex \
-	--variable urlcolor=cyan \
-	--filter pandoc-citeproc \
-	--bibliography=bibliography.bib \
+	--filter pandoc-citeproc
