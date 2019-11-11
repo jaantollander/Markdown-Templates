@@ -43,11 +43,9 @@ urlcolor: "blue"
 ---
 ```
 
-* The `title`, `data`, and `author` variables are used for creating the title.
-
-* The `bibliography` variable specifies the location of the bibliography file, in this case, `bibliography.bib`. Here is link to some [BibTex style examples](https://verbosus.com/bibtex-style-examples.html).
-
-* The `cls` variable specifies the [citation style](http://citationstyles.org/), and it should point to the location of the citation style file, for example, the path or URL. Different citation styles can be found from [zotero styles](https://www.zotero.org/styles) and [citation styles](https://github.com/citation-style-language/styles).
+- The `title`, `data`, and `author` variables are used for creating the title.
+- The `bibliography` variable specifies the location of the bibliography file, in this case, `bibliography.bib`. Here is link to some [BibTex style examples](https://verbosus.com/bibtex-style-examples.html).
+- The `cls` variable specifies the [citation style](http://citationstyles.org/), and it should point to the location of the citation style file, for example, the path or URL. Different citation styles can be found from [zotero styles](https://www.zotero.org/styles) and [citation styles](https://github.com/citation-style-language/styles).
 
 Pandoc's documentation specifies all the different metadata variables.
 
