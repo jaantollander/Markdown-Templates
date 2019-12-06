@@ -108,19 +108,50 @@ if(document.getElementById&&document.childNodes&&document.createElement){if(!(wi
 </header>
 <h1 id="image">Image</h1>
 <figure>
-<img src="data:image/png;base64,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" alt /><figcaption>Description</figcaption>
+<img src="data:image/png;base64,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" alt /><figcaption>Description </figcaption>
 </figure>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <span class="citation" data-cites="online">(Wikibooks, 2016)</span></p>
+<p>Seen in figure , lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <span class="citation" data-cites="online">(Wikibooks, <a href="#ref-online" role="doc-biblioref">2016</a>)</span></p>
 <h1 id="equation">Equation</h1>
-<p>Cauchy’s integral formula <span class="citation" data-cites="dixon1971brief">(Dixon, 1971)</span> <span class="math display">\[
+<p>Cauchy’s integral formula <span class="citation" data-cites="dixon1971brief">(Dixon, <a href="#ref-dixon1971brief" role="doc-biblioref">1971</a>)</span> <span class="math display">\[
 f(a)=\frac{1}{2πi}∮_γ\frac{f(z)}{z-a}\,dz.
+\tag{1}
+\label{eq:1}
 \]</span></p>
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>As seen in equation , duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <h1 id="source-code">Source Code</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">def</span> foo():</span>
 <span id="cb1-2"><a href="#cb1-2"></a>    <span class="cf">return</span> <span class="st">&quot;bar&quot;</span></span></code></pre></div>
 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h1 id="table">Table</h1>
+<table>
+<caption>Table styles. </caption>
+<thead>
+<tr class="header">
+<th>Tables</th>
+<th style="text-align: center;">Are</th>
+<th style="text-align: right;">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>col 3 is</td>
+<td style="text-align: center;">right-aligned</td>
+<td style="text-align: right;">$1600</td>
+</tr>
+<tr class="even">
+<td>col 2 is</td>
+<td style="text-align: center;">centered</td>
+<td style="text-align: right;">$12</td>
+</tr>
+<tr class="odd">
+<td>zebra stripes</td>
+<td style="text-align: center;">are neat</td>
+<td style="text-align: right;">$1</td>
+</tr>
+</tbody>
+</table>
+<p>Seen in table , Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 <h1 id="rererences" class="unnumbered">Rererences</h1>
 <div id="refs" class="references" role="doc-bibliography">
 <div id="ref-dixon1971brief">
