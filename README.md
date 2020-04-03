@@ -1,7 +1,7 @@
 # Markdown Templates
 ![](essay-template.png)
 
-This repository contains document templates for writing with Markdown. It is related to the article [*Scientific Writing with Markdown*](https://jaantollander.com/2018-01-25-writing-markdown.html), which discussed how to write documents, including scientific reports, using Markdown. The article was inspired by the article [*How to make a scientific-looking PDF from Markdown (with bibliography)*](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8).
+This repository contains document templates for writing with Markdown. It is related to the article [*Scientific Writing with Markdown*](https://jaantollander.com/post/scientific-writing-with-markdown/), which discussed how to write documents, including scientific reports, using Markdown. The article was inspired by the article [*How to make a scientific-looking PDF from Markdown (with bibliography)*](https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8).
 
 The main advantage of writing documents using Markdown is its relative simplicity compared to pure LaTeX but still being simple plain text format instead of binary formats such as MS Word or Google Docs.
 
