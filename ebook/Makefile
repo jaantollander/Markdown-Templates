@@ -8,5 +8,5 @@ epub:
 	--from=markdown+tex_math_single_backslash+tex_math_dollars \
 	--to=epub \
 	--output=$(BUILDDIR)/$(FILENAME).epub \
-	--epub-cover-image=cover.png \
+	--epub-cover-image="images/cover.png" \
 	--toc

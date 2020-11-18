@@ -4,6 +4,8 @@ date: "2018-05-18"
 author: "Jaan Tollander de Balsch"
 bibliography: "bibliography.bib"
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/harvard-anglia-ruskin-university.csl"
+link-citations: true
+urlcolor: "blue"
 ---
 # Image
 ![Description](http://via.placeholder.com/800x400)
