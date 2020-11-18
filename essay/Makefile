@@ -1,14 +1,26 @@
 BUILDDIR=build
 FILENAME=essay
 
-pdf:
+pdf-print:
 	mkdir $(BUILDDIR) -p
 	pandoc $(FILENAME).md \
 	--filter pandoc-citeproc \
 	--from=markdown+tex_math_single_backslash+tex_math_dollars+raw_tex \
 	--to=latex \
-	--output=$(BUILDDIR)/$(FILENAME).pdf \
-	--pdf-engine=xelatex
+	--output=$(BUILDDIR)/$(FILENAME)-print.pdf \
+	--pdf-engine=xelatex \
+
+pdf-ereader:
+	mkdir $(BUILDDIR) -p
+	pandoc $(FILENAME).md \
+	--filter pandoc-citeproc \
+	--from=markdown+tex_math_single_backslash+tex_math_dollars+raw_tex \
+	--to=latex \
+	--output=$(BUILDDIR)/$(FILENAME)-ereader.pdf \
+	--pdf-engine=xelatex \
+	--include-in-header="layout/ereader.tex"
+
+pdf: pdf-print pdf-ereader
 
 html:
 	mkdir $(BUILDDIR) -p
