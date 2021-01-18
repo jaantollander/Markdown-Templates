@@ -6,10 +6,162 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Referecing Examples</title>
   <style>
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -20,63 +172,63 @@
 <h1 class="title">Referecing Examples</h1>
 </header>
 <!-- TODO: biblatex examples -->
-<p><span class="citation" data-cites="article">Adams (<a href="#ref-article" role="doc-biblioref">1993</a>)</span></p>
-<p><span class="citation" data-cites="book">Babington (<a href="#ref-book" role="doc-biblioref">1993</a>)</span></p>
-<p><span class="citation" data-cites="booklet">Caxton (<a href="#ref-booklet" role="doc-biblioref">1993</a>)</span></p>
-<p><span class="citation" data-cites="conference">Draper (<a href="#ref-conference" role="doc-biblioref">1993</a>)</span></p>
-<p><span class="citation" data-cites="inbook">Eston (<a href="#ref-inbook" role="doc-biblioref">1993</a>)</span></p>
-<p><span class="citation" data-cites="incollection">Farindon (<a href="#ref-incollection" role="doc-biblioref">1993</a>)</span></p>
-<p><span class="citation" data-cites="manual">Gainsford (<a href="#ref-manual" role="doc-biblioref">1993</a>)</span></p>
-<p><span class="citation" data-cites="mastersthesis">Harwood (<a href="#ref-mastersthesis" role="doc-biblioref">1993</a>)</span></p>
-<p><span class="citation" data-cites="misc">Isley (<a href="#ref-misc" role="doc-biblioref">1993</a>)</span></p>
-<p><span class="citation" data-cites="phdthesis">Joslin (<a href="#ref-phdthesis" role="doc-biblioref">1993</a>)</span></p>
-<p><span class="citation" data-cites="proceedings">Kidwelly (<a href="#ref-proceedings" role="doc-biblioref">1993</a>)</span></p>
-<p><span class="citation" data-cites="techreport">Lambert (<a href="#ref-techreport" role="doc-biblioref">1993</a>)</span></p>
-<p><span class="citation" data-cites="unpublished">Marcheford (<a href="#ref-unpublished" role="doc-biblioref">1993</a>)</span></p>
-<p><span class="citation" data-cites="online">Wikibooks (<a href="#ref-online" role="doc-biblioref">2016</a>)</span></p>
-<h1 id="references" class="unnumbered">References</h1>
-<div id="refs" class="references" role="doc-bibliography">
-<div id="ref-article">
-<p>Adams, P., 1993. The title of the work. <em>The name of the journal</em>, 4(2), pp.201–213.</p>
+<p><span class="citation" data-cites="article"><a href="#ref-article" role="doc-biblioref">Adams</a> (<a href="#ref-article" role="doc-biblioref">1993</a>)</span></p>
+<p><span class="citation" data-cites="book"><a href="#ref-book" role="doc-biblioref">Babington</a> (<a href="#ref-book" role="doc-biblioref">1993</a>)</span></p>
+<p><span class="citation" data-cites="booklet"><a href="#ref-booklet" role="doc-biblioref">Caxton</a> (<a href="#ref-booklet" role="doc-biblioref">1993</a>)</span></p>
+<p><span class="citation" data-cites="conference"><a href="#ref-conference" role="doc-biblioref">Draper</a> (<a href="#ref-conference" role="doc-biblioref">1993</a>)</span></p>
+<p><span class="citation" data-cites="inbook"><a href="#ref-inbook" role="doc-biblioref">Eston</a> (<a href="#ref-inbook" role="doc-biblioref">1993</a>)</span></p>
+<p><span class="citation" data-cites="incollection"><a href="#ref-incollection" role="doc-biblioref">Farindon</a> (<a href="#ref-incollection" role="doc-biblioref">1993</a>)</span></p>
+<p><span class="citation" data-cites="manual"><a href="#ref-manual" role="doc-biblioref">Gainsford</a> (<a href="#ref-manual" role="doc-biblioref">1993</a>)</span></p>
+<p><span class="citation" data-cites="mastersthesis"><a href="#ref-mastersthesis" role="doc-biblioref">Harwood</a> (<a href="#ref-mastersthesis" role="doc-biblioref">1993</a>)</span></p>
+<p><span class="citation" data-cites="misc"><a href="#ref-misc" role="doc-biblioref">Isley</a> (<a href="#ref-misc" role="doc-biblioref">1993</a>)</span></p>
+<p><span class="citation" data-cites="phdthesis"><a href="#ref-phdthesis" role="doc-biblioref">Joslin</a> (<a href="#ref-phdthesis" role="doc-biblioref">1993</a>)</span></p>
+<p><span class="citation" data-cites="proceedings"><a href="#ref-proceedings" role="doc-biblioref">Kidwelly</a> (<a href="#ref-proceedings" role="doc-biblioref">1993</a>)</span></p>
+<p><span class="citation" data-cites="techreport"><a href="#ref-techreport" role="doc-biblioref">Lambert</a> (<a href="#ref-techreport" role="doc-biblioref">1993</a>)</span></p>
+<p><span class="citation" data-cites="unpublished"><a href="#ref-unpublished" role="doc-biblioref">Marcheford</a> (<a href="#ref-unpublished" role="doc-biblioref">1993</a>)</span></p>
+<p><span class="citation" data-cites="online"><a href="#ref-online" role="doc-biblioref">Wikibooks</a> (<a href="#ref-online" role="doc-biblioref">2016</a>)</span></p>
+<h1 class="unnumbered" id="references">References</h1>
+<div id="refs" class="references csl-bib-body" role="doc-bibliography">
+<div id="ref-article" class="csl-entry" role="doc-biblioentry">
+Adams, P., 1993. The title of the work. <em>The name of the journal</em>, 4(2), pp.201–213.
 </div>
-<div id="ref-book">
-<p>Babington, P., 1993. <em>The title of the work</em>. 3rd ed. 10th ser. The address: The name of the publisher.</p>
+<div id="ref-book" class="csl-entry" role="doc-biblioentry">
+Babington, P., 1993. <em>The title of the work</em>. 3rd ed. 10th series. The address: The name of the publisher.
 </div>
-<div id="ref-booklet">
-<p>Caxton, P., 1993. <em>The title of the work</em>.</p>
+<div id="ref-booklet" class="csl-entry" role="doc-biblioentry">
+Caxton, P., 1993. <em>The title of the work</em>.
 </div>
-<div id="ref-conference">
-<p>Draper, P., 1993. <em>The title of the work</em>. 5th ser.</p>
+<div id="ref-conference" class="csl-entry" role="doc-biblioentry">
+Draper, P., 1993. <em>The title of the work</em>. 5th series.
 </div>
-<div id="ref-inbook">
-<p>Eston, P., 1993. The title of the work. In: 5th ser., 3rd ed. The address of the publisher: The name of the publisher.pp.201–213.</p>
+<div id="ref-inbook" class="csl-entry" role="doc-biblioentry">
+Eston, P., 1993. The title of the work. In: 5th series, 3rd ed. The address of the publisher: The name of the publisher.pp.201–213.
 </div>
-<div id="ref-incollection">
-<p>Farindon, P., 1993. The title of the work. In: T. editor, ed. <em>The title of the book</em>, 5th ser., 3rd ed. The address of the publisher: The name of the publisher.pp.201–213.</p>
+<div id="ref-incollection" class="csl-entry" role="doc-biblioentry">
+Farindon, P., 1993. The title of the work. In: T. editor, ed. <em>The title of the book</em>, 5th series, 3rd ed. The address of the publisher: The name of the publisher.pp.201–213.
 </div>
-<div id="ref-manual">
-<p>Gainsford, P., 1993. <em>The title of the work</em>. 3rd ed. The address of the publisher: The organization.</p>
+<div id="ref-manual" class="csl-entry" role="doc-biblioentry">
+Gainsford, P., 1993. <em>The title of the work</em>. 3rd ed. The address of the publisher: The organization.
 </div>
-<div id="ref-mastersthesis">
-<p>Harwood, P., 1993. <em>The title of the work</em>. Master’s thesis. The school of the thesis.</p>
+<div id="ref-mastersthesis" class="csl-entry" role="doc-biblioentry">
+Harwood, P., 1993. <em>The title of the work</em>. Master’s thesis. The school of the thesis.
 </div>
-<div id="ref-misc">
-<p>Isley, P., 1993. <em>The title of the work</em>.</p>
+<div id="ref-misc" class="csl-entry" role="doc-biblioentry">
+Isley, P., 1993. <em>The title of the work</em>.
 </div>
-<div id="ref-phdthesis">
-<p>Joslin, P., 1993. <em>The title of the work</em>. PhD thesis. The school of the thesis.</p>
+<div id="ref-phdthesis" class="csl-entry" role="doc-biblioentry">
+Joslin, P., 1993. <em>The title of the work</em>. PhD thesis. The school of the thesis.
 </div>
-<div id="ref-proceedings">
-<p>Kidwelly, P. ed., 1993. <em>The title of the work</em>. 5th ser. The address of the publisher: The organization; The name of the publisher.</p>
+<div id="ref-proceedings" class="csl-entry" role="doc-biblioentry">
+Kidwelly, P. ed., 1993. <em>The title of the work</em>. 5th series. The address of the publisher: The organization; The name of the publisher.
 </div>
-<div id="ref-techreport">
-<p>Lambert, P., 1993. <em>The title of the work</em>. The address of the publisher: The institution that published.</p>
+<div id="ref-techreport" class="csl-entry" role="doc-biblioentry">
+Lambert, P., 1993. <em>The title of the work</em>. The address of the publisher: The institution that published.
 </div>
-<div id="ref-unpublished">
-<p>Marcheford, P., 1993. <em>The title of the work</em>.</p>
+<div id="ref-unpublished" class="csl-entry" role="doc-biblioentry">
+Marcheford, P., 1993. <em>The title of the work</em>.
 </div>
-<div id="ref-online">
-<p>Wikibooks, 2016. <em>Generating bibliographies with biblatex and biber</em>. [online] Available at: &lt;<a href="https://en.wikibooks.org/wiki/LaTeX/Generating_Bibliographies_with_biblatex_and_biber">https://en.wikibooks.org/wiki/LaTeX/Generating_Bibliographies_with_biblatex_and_biber</a>&gt; [Accessed 7 Mar. 2016].</p>
+<div id="ref-online" class="csl-entry" role="doc-biblioentry">
+Wikibooks, 2016. <em>Generating bibliographies with biblatex and biber</em>. [online] Available at: &lt;<a href="https://en.wikibooks.org/wiki/LaTeX/Generating_Bibliographies_with_biblatex_and_biber">https://en.wikibooks.org/wiki/LaTeX/Generating_Bibliographies_with_biblatex_and_biber</a>&gt; [Accessed 7 Mar. 2016].
 </div>
 </div>
 </body>
