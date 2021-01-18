@@ -18,7 +18,7 @@ html:
 	--mathjax \
 	--variable revealjs-url=../reveal.js \
 	--variable theme=black \
-	--variable transition=none \
+	--variable transition=fade \
 	--standalone
 
 html-self-contained:
@@ -31,6 +31,7 @@ html-self-contained:
 	--mathjax \
 	--variable revealjs-url=./reveal.js \
 	--variable theme=black \
+	--variable transition=fade \
 	--standalone \
 	--self-contained
 
