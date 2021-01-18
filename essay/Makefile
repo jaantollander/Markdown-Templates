@@ -4,7 +4,7 @@ FILENAME=essay
 pdf-print:
 	mkdir $(BUILDDIR) -p
 	pandoc $(FILENAME).md \
-	--filter pandoc-citeproc \
+	--citeproc \
 	--from=markdown+tex_math_single_backslash+tex_math_dollars+raw_tex \
 	--to=latex \
 	--output=$(BUILDDIR)/$(FILENAME)-print.pdf \
@@ -13,7 +13,7 @@ pdf-print:
 pdf-ereader:
 	mkdir $(BUILDDIR) -p
 	pandoc $(FILENAME).md \
-	--filter pandoc-citeproc \
+	--citeproc \
 	--from=markdown+tex_math_single_backslash+tex_math_dollars+raw_tex \
 	--to=latex \
 	--output=$(BUILDDIR)/$(FILENAME)-ereader.pdf \
@@ -25,7 +25,7 @@ pdf: pdf-print pdf-ereader
 html:
 	mkdir $(BUILDDIR) -p
 	pandoc $(FILENAME).md \
-	--filter pandoc-citeproc \
+	--citeproc \
 	--from=markdown+tex_math_single_backslash+tex_math_dollars \
 	--to=html5 \
 	--output=$(BUILDDIR)/$(FILENAME).html \

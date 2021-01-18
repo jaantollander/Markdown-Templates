@@ -8,4 +8,4 @@ pdf:
 	--to=beamer \
 	--output=$(BUILDDIR)/$(FILENAME).pdf \
 	--pdf-engine=xelatex \
-	--filter pandoc-citeproc
+	--citeproc

@@ -8,7 +8,7 @@ pdf:
 	--to=latex \
 	--output=$(BUILDDIR)/$(FILENAME).pdf \
 	--pdf-engine=xelatex \
-	--filter pandoc-citeproc
+	--citeproc
 
 html:
 	mkdir $(BUILDDIR) -p
@@ -16,5 +16,7 @@ html:
 	--from=markdown+tex_math_single_backslash \
 	--to=html5 \
 	--output=$(BUILDDIR)/$(FILENAME).html \
-	--filter pandoc-citeproc \
+	--citeproc \
 	--self-contained
+
+all: pdf html
