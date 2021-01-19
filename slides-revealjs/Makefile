@@ -2,10 +2,10 @@ BUILDDIR=build
 FILENAME=slides
 
 download-revealjs:
-	rm -r -f reveal.js
+	mkdir $(BUILDDIR) -p
 	wget https://github.com/hakimel/reveal.js/archive/master.tar.gz
 	tar -xzvf master.tar.gz
-	mv reveal.js-master reveal.js
+	mv reveal.js-master $(BUILDDIR)/reveal.js
 	rm master.tar.gz
 
 html:
@@ -16,7 +16,7 @@ html:
 	--to=revealjs \
 	--output=$(BUILDDIR)/$(FILENAME).html \
 	--mathjax \
-	--variable revealjs-url=../reveal.js \
+	--variable revealjs-url=./reveal.js \
 	--variable theme=black \
 	--variable transition=fade \
 	--standalone
@@ -29,11 +29,11 @@ html-self-contained:
 	--to=revealjs \
 	--output=$(BUILDDIR)/$(FILENAME)-self-contained.html \
 	--mathjax \
-	--variable revealjs-url=./reveal.js \
+	--variable revealjs-url=./$(BUILDDIR)/reveal.js \
 	--variable theme=black \
 	--variable transition=fade \
 	--standalone \
 	--self-contained
 
 clean:
-	rm build/*
+	rm -r build/*
