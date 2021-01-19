@@ -1,6 +1,6 @@
 ---
 title: "Essay Example"
-date: \today
+date: "2021-01-19"
 author: "Jaan Tollander de Balsch"
 bibliography: "bibliography.bib"
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/harvard-anglia-ruskin-university.csl"

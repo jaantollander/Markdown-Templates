@@ -30,4 +30,4 @@ html:
 	--to=html5 \
 	--output=$(BUILDDIR)/$(FILENAME).html \
 	--mathjax \
-	--self-contained
+	--standalone
