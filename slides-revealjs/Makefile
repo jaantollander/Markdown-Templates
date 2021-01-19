@@ -12,7 +12,7 @@ html:
 	mkdir $(BUILDDIR) -p
 	pandoc $(FILENAME).md \
 	--citeproc \
-	--from=markdown+tex_math_single_backslash+tex_math_dollars \
+	--from=markdown+tex_math_single_backslash+tex_math_dollars+raw_html \
 	--to=revealjs \
 	--output=$(BUILDDIR)/$(FILENAME).html \
 	--mathjax \
@@ -25,7 +25,7 @@ html-self-contained:
 	mkdir $(BUILDDIR) -p
 	pandoc $(FILENAME).md \
 	--citeproc \
-	--from=markdown+tex_math_single_backslash+tex_math_dollars \
+	--from=markdown+tex_math_single_backslash+tex_math_dollars+raw_html \
 	--to=revealjs \
 	--output=$(BUILDDIR)/$(FILENAME)-self-contained.html \
 	--mathjax \
