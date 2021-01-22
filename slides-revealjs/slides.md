@@ -5,6 +5,8 @@ date: "2021-01-18"
 bibliography: "bibliography.bib"
 csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/harvard-anglia-ruskin-university.csl"
 urlcolor: "blue"
+theme: black
+transition: fade
 ---
 
 ## Lorem
