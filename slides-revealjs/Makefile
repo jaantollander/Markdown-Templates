@@ -1,5 +1,10 @@
 BUILDDIR=build
 FILENAME=slides
+ASSETSDIR=assets
+
+download-assets:
+	mkdir $(ASSETSDIR) -p
+	wget -O $(ASSETSDIR)/citation-style.csl https://raw.githubusercontent.com/citation-style-language/styles/master/harvard-anglia-ruskin-university.csl
 
 download-revealjs:
 	mkdir $(BUILDDIR) -p

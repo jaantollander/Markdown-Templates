@@ -3,7 +3,7 @@ author: Jaan Tollander de Balsch
 title: Slides Example with Beamer
 date: "2021-01-18"
 bibliography: "bibliography.bib"
-csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/harvard-anglia-ruskin-university.csl"
+csl: "assets/citation-style.csl"
 urlcolor: "blue"
 ---
 
@@ -13,7 +13,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 # Equation
 Cauchy's integral formula [@dixon1971brief]
 
-\[f(a)=\frac{1}{2πi}∮_γ\frac{f(z)}{z-a}\,dz.\]
+$$f(a)=\frac{1}{2πi}∮_γ\frac{f(z)}{z-a}\,dz.$$
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 

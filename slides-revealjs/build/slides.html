@@ -21,6 +21,7 @@
     pre > code.sourceCode { white-space: pre; position: relative; }
     pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
     div.sourceCode { margin: 1em 0; }
     pre.sourceCode { margin: 0; }
@@ -120,7 +121,7 @@
 <h2>Equation</h2>
 <p>Cauchy’s integral formula <span class="citation" data-cites="dixon1971brief">(Dixon, 1971)</span></p>
 <div class="fragment">
-<p><span class="math display">\[f(a)=\frac{1}{2πi}∮_γ\frac{f(z)}{z-a}\,dz.\]</span></p>
+<p>[f(a)=∮_γ,dz.]</p>
 </div>
 <div class="fragment">
 <div class="fragment highlight-red">
@@ -191,6 +192,7 @@ Wikibooks, 2016. <em>Generating bibliographies with biblatex and biber</em>. [on
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
+      
         // Push each slide change to the browser history
         history: true,
         // Transition style

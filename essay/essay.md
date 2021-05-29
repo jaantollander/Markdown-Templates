@@ -3,13 +3,13 @@ title: "Essay Example"
 date: "2021-01-19"
 author: "Jaan Tollander de Balsch"
 bibliography: "bibliography.bib"
-csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/harvard-anglia-ruskin-university.csl"
+csl: "assets/citation-style.csl"
 link-citations: true
 urlcolor: "blue"
 ---
 
 # Image
-![Description \label{fig:1}](http://via.placeholder.com/800x400)
+![Description \label{fig:1}](images/800x400.png)
 
 Seen in figure \ref{fig:1}, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. [@online]
 

@@ -3,7 +3,7 @@ author: Jaan Tollander de Balsch
 title: Slides Example with Reveal.js
 date: "2021-01-18"
 bibliography: "bibliography.bib"
-csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/harvard-anglia-ruskin-university.csl"
+csl: "assets/citation-style.csl"
 urlcolor: "blue"
 theme: black
 transition: fade

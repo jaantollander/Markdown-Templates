@@ -1,7 +1,7 @@
 ---
-title: Referecing Examples
+title: Referencing Examples
 bibliography: "bibliography.bib"
-csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/harvard-anglia-ruskin-university.csl"
+csl: "assets/citation-style.csl"
 link-citations: true
 urlcolor: "blue"
 ---
