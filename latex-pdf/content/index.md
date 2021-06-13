@@ -3,7 +3,6 @@ title: "Essay Example"
 date: "2021-01-19"
 author: "Jaan Tollander de Balsch"
 bibliography: "bibliography.bib"
-csl: "assets/citation-style.csl"
 link-citations: true
 urlcolor: "blue"
 ---
