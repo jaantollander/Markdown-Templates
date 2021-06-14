@@ -10,33 +10,44 @@ download_assets() {
         "https://raw.githubusercontent.com/citation-style-language/styles/master/harvard-anglia-ruskin-university.csl"
 }
 
-pdf_print() {
+pdf() {
     mkdir "${BUILDDIR}" -p
-    echo "Creating pdf-print output"
+    echo "Creating pdf output"
     pandoc "${CONTENTDIR}/${FILENAME}.md" \
         --resource-path="${CONTENTDIR}" \
         --citeproc \
         --csl="${ASSETSDIR}/citation-style.csl" \
-        --from="markdown+tex_math_single_backslash+tex_math_dollars+raw_tex" \
+        --from="markdown+tex_math_single_backslash+tex_math_dollars" \
         --to="latex" \
-        --output="${BUILDDIR}/output_print.pdf" \
-        --pdf-engine="xelatex" \
-        --include-in-header="layouts/print.tex"
+        --output="${BUILDDIR}/output.pdf" \
+        --pdf-engine="xelatex"
 }
 
-pdf_ereader() {
+html() {
     mkdir "${BUILDDIR}" -p
-    echo "Creating pdf-ereader output"
+    echo "Creating html output"
     pandoc "${CONTENTDIR}/${FILENAME}.md" \
         --resource-path="${CONTENTDIR}" \
         --citeproc \
         --csl="${ASSETSDIR}/citation-style.csl" \
-        --from="markdown+tex_math_single_backslash+tex_math_dollars+raw_tex" \
-        --to="latex" \
-        --output="${BUILDDIR}/output_ereader.pdf" \
-        --pdf-engine="xelatex" \
-        --include-in-header="layouts/ereader.tex"
+        --from="markdown+tex_math_single_backslash+tex_math_dollars" \
+        --to="html5" \
+        --output="${BUILDDIR}/output.html" \
+        --self-contained
 }
+
+epub() {
+    mkdir "${BUILDDIR}" -p
+    echo "Creating epub output"
+    pandoc "${CONTENTDIR}/${FILENAME}.md" \
+        --resource-path="${CONTENTDIR}" \
+        --citeproc \
+        --csl="${ASSETSDIR}/citation-style.csl" \
+        --from="markdown+tex_math_single_backslash+tex_math_dollars" \
+        --to="epub" \
+        --output="${BUILDDIR}/output.epub"
+}
+
 
 # Allows to call a function based on arguments passed to the script
 # Example: `./build.sh pdf_print`

@@ -10,21 +10,19 @@ download_assets() {
         "https://raw.githubusercontent.com/citation-style-language/styles/master/harvard-anglia-ruskin-university.csl"
 }
 
-epub() {
+pdf() {
     mkdir "${BUILDDIR}" -p
-    echo "Creating epub output"
-    pandoc "${CONTENTDIR}/${FILENAME}".md \
+    echo "Creating pdf output"
+    pandoc "${CONTENTDIR}/${FILENAME}.md" \
         --resource-path="${CONTENTDIR}" \
         --citeproc \
         --csl="${ASSETSDIR}/citation-style.csl" \
-        --from="markdown+tex_math_single_backslash+tex_math_dollars" \
-        --to="epub" \
-        --output="${BUILDDIR}/output.epub" \
-        --epub-cover-image="${ASSETSDIR}/cover.png" \
-        --mathml \
-        --toc
+        --from="markdown+tex_math_single_backslash+tex_math_dollars+raw_tex" \
+        --to="beamer" \
+        --output="${BUILDDIR}/output.pdf" \
+        --pdf-engine="xelatex"
 }
 
 # Allows to call a function based on arguments passed to the script
-# Example: `./build.sh epub`
+# Example: `./build.sh pdf`
 $*

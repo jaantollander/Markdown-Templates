@@ -3,7 +3,6 @@ author: Jaan Tollander de Balsch
 title: Slides Example with Beamer
 date: "2021-01-18"
 bibliography: "bibliography.bib"
-csl: "assets/citation-style.csl"
 urlcolor: "blue"
 ---
 
