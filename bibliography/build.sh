@@ -50,5 +50,5 @@ epub() {
 
 
 # Allows to call a function based on arguments passed to the script
-# Example: `./build.sh pdf_print`
+# Example: `./build.sh pdf`
 $*

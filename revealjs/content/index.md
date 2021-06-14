@@ -3,7 +3,6 @@ author: Jaan Tollander de Balsch
 title: Slides Example with Reveal.js
 date: "2021-01-18"
 bibliography: "bibliography.bib"
-csl: "assets/citation-style.csl"
 urlcolor: "blue"
 theme: black
 transition: fade
@@ -16,7 +15,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 Cauchy's integral formula [@dixon1971brief]
 
 <div class="fragment">
-\[f(a)=\frac{1}{2πi}∮_γ\frac{f(z)}{z-a}\,dz.\]
+$$f(a)=\frac{1}{2πi}∮_γ\frac{f(z)}{z-a}\,dz.$$
 </div>
 
 <div class="fragment">
