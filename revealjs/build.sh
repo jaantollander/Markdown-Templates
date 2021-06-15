@@ -28,13 +28,13 @@ html() {
         --from="markdown+tex_math_single_backslash+tex_math_dollars" \
         --to="revealjs" \
         --output="${BUILDDIR}/output.html" \
-        --variable revealjs-url=./reveal.js \
+        --variable revealjs-url="./reveal.js" \
         --mathjax \
         --standalone
 }
 
 clean() {
-    rm -r build/*
+    rm -r ${BUILDDIR}/*
 }
 
 # Allows to call a function based on arguments passed to the script
