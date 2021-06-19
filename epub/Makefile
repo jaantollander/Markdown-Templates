@@ -1,5 +1,5 @@
-download-assets:
-	./build.sh download_assets
+download-csl:
+	./build.sh download_csl
 
 epub:
 	./build.sh epub

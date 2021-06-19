@@ -4,7 +4,7 @@ BUILDDIR="build"
 FILENAME="index"
 ASSETSDIR="assets"
 
-download_assets() {
+download_csl() {
     mkdir "${ASSETSDIR}" -p
     wget -O "${ASSETSDIR}/citation-style.csl" \
         "https://raw.githubusercontent.com/citation-style-language/styles/master/harvard-anglia-ruskin-university.csl"
