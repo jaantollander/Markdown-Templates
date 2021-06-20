@@ -8,7 +8,8 @@ pdf() {
         --from=markdown+tex_math_single_backslash+tex_math_dollars+raw_tex \
         --to=latex \
         --output=${BUILDDIR}/output.pdf \
-        --pdf-engine=xelatex
+        --pdf-engine=xelatex \
+        --include-in-header="layout.tex"
 }
 
 # Allows to call a function based on arguments passed to the script

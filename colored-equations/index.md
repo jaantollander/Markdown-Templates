@@ -1,10 +1,4 @@
 ---
-pagestyle: empty
-papersize: a5
-geometry:
-- margin=1cm
-header-include: |
-    \usepackage{color}
 urlcolor: "blue"
 ---
 
