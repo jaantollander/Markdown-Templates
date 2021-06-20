@@ -12,7 +12,7 @@ download_csl() {
 
 epub() {
     mkdir "${BUILDDIR}" -p
-    echo "Creating epub output"
+    echo "Creating EPUB output"
     pandoc "${CONTENTDIR}/${FILENAME}".md \
         --resource-path="${CONTENTDIR}" \
         --citeproc \
