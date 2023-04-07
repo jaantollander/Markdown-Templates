@@ -7,7 +7,7 @@ To use these templates, we require the following software.
 
 1) [*Pandoc*](https://pandoc.org/) for converting between the Markdown files into other document formats.
 2) [*LaTeX*](https://www.latex-project.org/) for creating PDF documents.
-3) *Make* (software) for using Makefiles.
+3) Shell such as Bash for invoking the build scripts.
 
 Then, clone the repository and copy the appropriate template.
 
