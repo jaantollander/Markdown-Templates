@@ -1,2 +1,0 @@
-pdf:
-	./build.sh pdf
